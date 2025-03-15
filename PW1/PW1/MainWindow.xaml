@@ -8,7 +8,7 @@
         Title="MainWindow" Height="300" Width="300">
     <Grid>
         <Viewport3D>
-            <!-- Камера (перспективна) -->
+            <!-- Камера -->
             <Viewport3D.Camera>
                 <PerspectiveCamera Position="0,2,5" LookDirection="0,-0.5,-5" FieldOfView="60"/>
             </Viewport3D.Camera>
@@ -32,14 +32,7 @@
                 </ModelVisual3D.Content>
             </ModelVisual3D>
 
-            <!-- Освітлення Spotlight для трикутника зліва -->
-            <ModelVisual3D>
-                <ModelVisual3D.Content>
-                    <SpotLight Color="White" Position="-3,1,1" Direction="1,-1,-1" InnerConeAngle="20" OuterConeAngle="40"/>
-                </ModelVisual3D.Content>
-            </ModelVisual3D>
-
-            <!-- Трикутник (зміщений вліво) -->
+            <!-- Трикутник -->
             <ModelVisual3D>
                 <ModelVisual3D.Content>
                     <GeometryModel3D>
@@ -64,7 +57,7 @@
                 </ModelVisual3D.Content>
             </ModelVisual3D>
 
-            <!-- Прямокутник (зміщений вправо та повернутий) -->
+            <!-- Прямокутник -->
             <ModelVisual3D>
                 <ModelVisual3D.Content>
                     <GeometryModel3D>
